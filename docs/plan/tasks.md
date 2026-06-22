@@ -1,0 +1,13 @@
+- [x] Create root AGENTS.md universal contract
+- [x] Create CLAUDE.md redirecting Claude to AGENTS.md
+- [x] Create README.md with copy-paste usage instructions
+- [x] Create CONTRIBUTING.md with contributor workflow
+- [x] Add MIT LICENSE
+- [x] Create docs table of contents
+- [x] Create developer task log
+- [x] Create centralized specs document
+- [x] Create centralized design document
+- [x] Create flat task checklist
+- [x] Add policy verification script
+- [x] Add GitHub workflow for policy verification
+- [x] Run policy verification check
