@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+vendor/
+.venv/
+venv/
+
+# Build outputs
+dist/
+build/
+coverage/
+.tmp/
+tmp/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
