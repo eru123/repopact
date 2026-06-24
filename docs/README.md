@@ -16,6 +16,7 @@ This is the documentation table of contents for the project.
 - [Git Workflow](developers/git-workflow.md)
 - [Verification](developers/verification.md)
 - [Task Logs](developers/task-logs.md)
+- [Publish to npm](developers/npm-publishing.md)
 
 ## Planning
 

@@ -25,3 +25,13 @@ When checks are needed, run the smallest relevant one for the touched scope and 
 ## Commit Design
 
 Commits are concise, imperative, and free of co-author or AI metadata. GPG signing is not required.
+
+## CLI Package Design
+
+- Package metadata lives in `package.json` with a single binary entry at `bin/repopact.js`.
+- `bin/repopact.js` validates the subcommand and dispatches to the implementation.
+- The init command resolves files relative to `process.cwd()` in the user's project.
+- The contract file `AGENTS.md` is copied from the installed package root using `__dirname`-relative paths.
+- Blank planning and task-log templates are written from inline strings, avoiding extra template-file dependencies.
+- Existing files are skipped with a notice, preventing accidental data loss.
+- No external dependencies are required.
