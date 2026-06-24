@@ -9,7 +9,7 @@ Latest entries first. Keep entries short and factual.
 - Added `docs/developers/npm-publishing.md` with the npm publish workflow.
 - Updated `README.md`, `docs/README.md`, and `docs/user-guides/usage-overview.md` for the new CLI.
 - Verification: `npm pack --dry-run` shows the expected files; running `./bin/repopact.js init` in a temporary directory creates the expected files; a second run skips existing files.
-
+- Self-review follow-up: corrected `docs/plan/specs.md` to state that existing files are skipped rather than prompting for confirmation.
 
 - Removed the repo policy GitHub workflow and local policy script, then cleaned related references from docs and instructions.
 - Updated `AGENTS.md` to ask follow-up questions one at a time when clarification is needed.
