@@ -21,7 +21,15 @@ Use it for web apps, APIs, CLIs, libraries, mobile apps, infrastructure reposito
 
 ## How To Use
 
-Copy these files into the root of your own project:
+The fastest way to add RepoPact to a project is with npx:
+
+```bash
+npx repopact init
+```
+
+This copies `AGENTS.md` into your project root and creates the planning and task-log files under `docs/`.
+
+Alternatively, copy these files into the root of your own project:
 
 ```text
 docs/

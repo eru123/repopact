@@ -4,3 +4,8 @@
 - [x] Verify `AGENTS.md` includes one-at-a-time follow-up question guidance
 - [x] Verify the obsolete files are deleted
 - [x] Verify no repo-wide workflow or policy-check references remain
+- [x] Add `package.json` with `repopact` binary entry
+- [x] Implement `repopact init` command that copies `AGENTS.md`
+- [x] Implement blank planning and task-log file creation in `docs/`
+- [x] Add developer docs for npm publishing setup
+- [x] Verify the CLI runs correctly in a temporary directory

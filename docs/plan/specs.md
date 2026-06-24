@@ -33,3 +33,18 @@ This file is the single source of truth for project requirements.
 - `docs/plan/tasks.md` remains a flat checkbox list.
 - `AGENTS.md` tells agents to ask follow-up questions one at a time when clarification is needed.
 - Repository docs and instructions stay free of repo-wide policy automation references.
+
+## CLI Package Requirements
+
+- Publish `repopact` as an installable npm package.
+- Provide a `repopact` executable.
+- `repopact init` (or `npx repopact init`) copies the packaged `AGENTS.md` into the user's current working directory.
+- `repopact init` creates the planning files if they do not exist:
+  - `docs/plan/specs.md`
+  - `docs/plan/design.md`
+  - `docs/plan/tasks.md`
+- `repopact init` creates the implementation journal if it does not exist:
+  - `docs/developers/task-logs.md`
+- Existing files are not overwritten without user confirmation.
+- The CLI uses only the Node.js standard library.
+- Document the npm publish workflow under `docs/developers/`.

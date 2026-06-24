@@ -1,0 +1,21 @@
+{
+  "name": "repopact",
+  "version": "0.1.0",
+  "description": "Installable RepoPact project operating contract. Run `npx repopact init` to bootstrap AGENTS.md and planning docs.",
+  "license": "MIT",
+  "author": "eru123",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eru123/repopact.git"
+  },
+  "bin": {
+    "repopact": "./bin/repopact.js"
+  },
+  "files": [
+    "bin",
+    "AGENTS.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
