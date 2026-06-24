@@ -17,7 +17,6 @@ Use it for web apps, APIs, CLIs, libraries, mobile apps, infrastructure reposito
   - `docs/plan/tasks.md`
 - Latest-first implementation journal:
   - `docs/developers/task-logs.md`
-- GitHub workflow and local script for repository policy checks.
 - Root Markdown guardrails that prevent random summary, guide, fix, note, roadmap, changelog, and scratch files from accumulating.
 
 ## How To Use
@@ -25,9 +24,7 @@ Use it for web apps, APIs, CLIs, libraries, mobile apps, infrastructure reposito
 Copy these files into the root of your own project:
 
 ```text
-.github/
 docs/
-scripts/
 .gitattributes
 .gitignore
 AGENTS.md
@@ -72,13 +69,7 @@ For non-trivial changes:
 
 ## Verification
 
-Run the local policy check:
-
-```sh
-bash scripts/verify-policy.sh
-```
-
-The GitHub workflow runs the same check on pushes and pull requests.
+Run the checks that make sense for your project and keep them documented in `docs/developers/task-logs.md`.
 
 ## License
 

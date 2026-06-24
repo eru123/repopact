@@ -24,7 +24,6 @@ Update this section when the project structure becomes known.
 
 - `src/`, `app/`, `lib/`, or equivalent: primary application code.
 - `tests/`, `test/`, `spec/`, or equivalent: automated checks when the project has them.
-- `scripts/`: repeatable development, verification, maintenance, and deployment utilities.
 - `docs/`: canonical documentation home. Do not scatter task notes around the repository.
 - `docs/README.md`: documentation table of contents.
 - `docs/plan/specs.md`: centralized specification source of truth.
@@ -84,7 +83,7 @@ Required planning files:
 
 Process:
 
-1. Clarify missing requirements only when the task cannot be safely completed without them.
+1. Clarify missing requirements only when the task cannot be safely completed without them. If multiple follow-up questions are needed, ask one at a time instead of batching them.
 2. Read or create `docs/plan/specs.md`, then update it with the relevant request details.
 3. Read or create `docs/plan/design.md`, then update it with the intended implementation approach.
 4. Create or update `docs/plan/tasks.md` as a flat checkbox list.
@@ -183,8 +182,7 @@ Before every commit:
 3. Update `docs/developers/task-logs.md` with a latest-first entry.
 4. Update `docs/README.md` when documentation structure changes.
 5. Run the relevant check, or document why it could not be run.
-6. Run `scripts/verify-policy.sh` if it exists.
-7. Confirm root Markdown stays within the allowlist.
+6. Confirm root Markdown stays within the allowlist.
 
 Commit rules:
 

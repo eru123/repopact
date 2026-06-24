@@ -5,6 +5,7 @@ This file is the single source of truth for implementation design.
 ## Repository Operating Model
 
 The repository uses a root agent contract, child instruction files for scoped rules, centralized planning files, and a latest-first task log.
+When clarification is needed, the agent asks one follow-up question at a time.
 
 ## Documentation Structure
 
@@ -18,15 +19,8 @@ The repository uses a root agent contract, child instruction files for scoped ru
 
 ## Verification Design
 
-The local policy script validates:
-
-- Required root files exist.
-- Root Markdown stays within the allowlist.
-- Forbidden root summary/guide/fix/note/roadmap/changelog files are not created.
-- `docs/plan/tasks.md` contains only flat checkbox lines.
-- AI/co-author metadata markers are not present.
-
-The GitHub workflow runs the same script on push and pull request.
+Verification stays project-specific. This template does not prescribe repo-wide policy automation.
+When checks are needed, run the smallest relevant one for the touched scope and document it in the task log when helpful.
 
 ## Commit Design
 

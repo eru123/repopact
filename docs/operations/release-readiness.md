@@ -8,6 +8,6 @@ Before release, verify:
 - Documentation reflects user-facing behavior.
 - Migration and rollback notes exist when needed.
 - Secrets are not committed.
-- `bash scripts/verify-policy.sh` passes.
+- Required release checks pass.
 
 Do not create `CHANGELOG.md` until the project owner explicitly wants customer-facing release notes.

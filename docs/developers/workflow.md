@@ -11,7 +11,7 @@ Use this workflow for meaningful changes:
 7. Add or update the smallest relevant verification.
 8. Update the nearest owning docs page.
 9. Add a latest-first entry to `docs/developers/task-logs.md`.
-10. Run relevant checks and `bash scripts/verify-policy.sh`.
+10. Run relevant checks.
 11. Commit unless the owner says not to.
 
 Avoid unrelated formatting and broad rewrites.

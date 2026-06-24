@@ -8,7 +8,7 @@ Before committing:
 2. Confirm documentation reflects behavior and structure changes.
 3. Confirm `docs/developers/task-logs.md` has a latest-first entry.
 4. Run relevant checks.
-5. Run `bash scripts/verify-policy.sh`.
+5. Confirm the checks completed successfully.
 
 Commit messages:
 

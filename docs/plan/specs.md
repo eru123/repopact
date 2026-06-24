@@ -12,6 +12,7 @@ This file is the single source of truth for project requirements.
 ## Core Requirements
 
 - Keep implementation work small, documented, and verifiable.
+- When clarification is needed, ask follow-up questions one at a time.
 - Keep all durable docs under `docs/` except allowed root files.
 - Keep task and decision history in `docs/developers/task-logs.md` until customer-facing changelogs are explicitly required.
 - Use MIT License unless the project owner changes it.
@@ -30,4 +31,5 @@ This file is the single source of truth for project requirements.
 - All other durable docs live under `docs/`.
 - `docs/README.md` links the documentation structure.
 - `docs/plan/tasks.md` remains a flat checkbox list.
-- `bash scripts/verify-policy.sh` passes.
+- `AGENTS.md` tells agents to ask follow-up questions one at a time when clarification is needed.
+- Repository docs and instructions stay free of repo-wide policy automation references.

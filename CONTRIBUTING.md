@@ -19,7 +19,7 @@ Before making changes, read:
 4. Update relevant docs under `docs/`.
 5. Update `docs/developers/task-logs.md` with a latest-first entry.
 6. Run relevant checks.
-7. Run `bash scripts/verify-policy.sh` before committing.
+7. Run the relevant checks before committing.
 
 ## Planning
 

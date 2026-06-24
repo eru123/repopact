@@ -1,13 +1,6 @@
-- [x] Create root AGENTS.md universal contract
-- [x] Create CLAUDE.md redirecting Claude to AGENTS.md
-- [x] Create README.md with copy-paste usage instructions
-- [x] Create CONTRIBUTING.md with contributor workflow
-- [x] Add MIT LICENSE
-- [x] Create docs table of contents
-- [x] Create developer task log
-- [x] Create centralized specs document
-- [x] Create centralized design document
-- [x] Create flat task checklist
-- [x] Add policy verification script
-- [x] Add GitHub workflow for policy verification
-- [x] Run policy verification check
+- [x] Update `AGENTS.md` to ask follow-up questions one at a time
+- [x] Remove the obsolete workflow and policy check files
+- [x] Remove related workflow and verification references from docs and instructions
+- [x] Verify `AGENTS.md` includes one-at-a-time follow-up question guidance
+- [x] Verify the obsolete files are deleted
+- [x] Verify no repo-wide workflow or policy-check references remain
