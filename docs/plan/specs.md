@@ -45,6 +45,6 @@ This file is the single source of truth for project requirements.
   - `docs/plan/tasks.md`
 - `repopact init` creates the implementation journal if it does not exist:
   - `docs/developers/task-logs.md`
-- Existing files are not overwritten without user confirmation.
+- Existing files are skipped and left in place.
 - The CLI uses only the Node.js standard library.
 - Document the npm publish workflow under `docs/developers/`.
